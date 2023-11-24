@@ -17,6 +17,10 @@
 	src: url('archivo-v18-latin-700.woff2') format('woff2');
 }
 
+a {
+	text-decoration: none;
+}
+
 body {
 	background-color: #428a8a;
 	color: rgb(0, 0, 0);
@@ -28,7 +32,7 @@ body {
 }
 .sudoku_bg {
 	display: inline;
-	background: url('sudoku_bg.png');
+	background: url('sudoku_bg.webp');
 	background-position: right bottom;
 	background-repeat: no-repeat;
 	background-size: contain;
